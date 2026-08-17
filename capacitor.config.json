@@ -1,0 +1,12 @@
+{
+  "appId": "com.regretmap.app",
+  "appName": "후회 지도",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https"
+  },
+  "android": {
+    "allowMixedContent": false
+  }
+}

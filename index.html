@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=1.0, user-scalable=no" />
+    <meta name="theme-color" content="#0B1220" />
+    <title>후회 지도 | Regret Map</title>
+    <meta name="description" content="장소 기반 익명 후회 공유 지도. 그때 그곳, 나만 그런 게 아니었다." />
+
+    <!-- PWA manifest (플레이스토어 TWA/Capacitor 겸용 대비) -->
+    <link rel="manifest" href="./manifest.json" />
+
+    <!-- 폰트: 헤드라인은 세리프(오래된 기억의 무게감), 본문은 가독성 좋은 산세리프 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@500;700&family=Pretendard:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!--
+      Google Maps JS API
+      .env 의 VITE_GOOGLE_MAPS_API_KEY 값을 src/lib/loadGoogleMaps.js 에서 동적으로 불러와 사용합니다.
+    -->
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
