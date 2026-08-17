@@ -19,6 +19,16 @@
       Google Maps JS API
       .env 의 VITE_GOOGLE_MAPS_API_KEY 값을 src/lib/loadGoogleMaps.js 에서 동적으로 불러와 사용합니다.
     -->
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9XT700VTBS"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-9XT700VTBS');
+    </script>
   </head>
   <body>
     <div id="root"></div>
